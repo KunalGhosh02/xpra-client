@@ -18,10 +18,8 @@
 
 package com.github.jksiezni.xpra;
 
-import android.support.design.widget.FloatingActionButton;
-import android.support.v7.app.ActionBar;
-
-import com.github.jksiezni.xpra.db.DatabaseHelper;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import androidx.appcompat.app.ActionBar;
 
 public interface GlobalActivityAccessor {
 

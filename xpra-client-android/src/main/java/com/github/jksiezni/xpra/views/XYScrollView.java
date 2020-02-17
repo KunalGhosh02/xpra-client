@@ -19,8 +19,8 @@
 package com.github.jksiezni.xpra.views;
 
 import android.content.Context;
-import android.support.v4.view.GestureDetectorCompat;
-import android.support.v4.view.ScaleGestureDetectorCompat;
+import androidx.core.view.GestureDetectorCompat;
+import androidx.core.view.ScaleGestureDetectorCompat;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.GestureDetector;

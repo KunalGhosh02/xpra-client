@@ -20,18 +20,14 @@ package com.github.jksiezni.xpra;
 
 import android.app.FragmentManager;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import android.util.Log;
 
 import com.github.jksiezni.xpra.fragments.ServersListFragment;
 import com.j256.ormlite.android.apptools.OpenHelperManager;
 
-import java.lang.reflect.Constructor;
-import java.lang.reflect.InvocationTargetException;
-
-import xpra.protocol.packets.HelloRequest;
 import xpra.protocol.packets.SetDeflate;
 
 public class MainActivity extends AppCompatActivity implements GlobalActivityAccessor {

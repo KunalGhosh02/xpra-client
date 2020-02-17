@@ -7,9 +7,9 @@ sourceCompatibility = JavaVersion.VERSION_1_7
 targetCompatibility = JavaVersion.VERSION_1_7
 
 dependencies {
-    compile project(':xpra-common')
+    //implementation project(':xpra-common')
 
-    compile 'org.slf4j:slf4j-simple:1.7.12'
+    implementation 'org.slf4j:slf4j-simple:1.7.12'
 
-    testCompile 'junit:junit:4.12'
+    testImplementation 'junit:junit:4.12'
 }
